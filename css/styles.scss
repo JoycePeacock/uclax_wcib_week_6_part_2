@@ -76,8 +76,15 @@ img {
 .bg-dark {
   background-image: url(../images/bubbles.jpg);
 }
-.beerquotes {
+.beerquote {
   display: box;
   background-color: pink;
   float: left;
+}
+.story {
+  display: box;
+  background-color: pink;
+  float: left;
+  font-family:  playbill, cursive;
+  font-size: 2rem;
 }

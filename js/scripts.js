@@ -1,13 +1,33 @@
 console.log('Hello from js/scripts.js!');
-
-
-const btn-primary = document.querySelector('btn-primary');
+//change color of modal
+const jazz = document.querySelector('#jazz');
 
 function random(number) {
   return Math.floor(Math.random() * (number+1));
 }
 
-btn-primary.onclick = function() {
-  const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-  document.style.backgroundColor = rndCol;
+document.getElementById("jazz").addEventListener("click", myFunction);
+    const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+    document.getElementName(container).style.backgroundColor = rndCol;
+
+//beer quotes
+const beerQuote = document.querySelector('.beerquote');
+const story = document.querySelector('.story');
+
+function randomValueFromArray(array){
+  const beerQuote = Math.floor(Math.random()*array.length);
+  return array[random];
+}
+
+let storyText = ":insertx:";
+
+let insertX = ['\"What care I how time advances? I am drinking ale today.\"', '\"He was a wise man who invented beer.\"' , '\"Beer, it’s the best damn drink in the world.\"', '\"A man who lies about beer makes enemies.\"'
+
+beerquote.addEventListener('click', function result() {
+  let newStory = storyText;
+  let xItem = randomValueFromArray (insertX);
+  newStory = newStory.replace(':insertx:',xItem);
+
+  story.textContent = newStory;
+  story.style.visibility = 'visible';
 }
