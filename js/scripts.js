@@ -23,7 +23,7 @@ let storyText = ":insertx:";
 
 let insertX = ['\"What care I how time advances? I am drinking ale today.\"', '\"He was a wise man who invented beer.\"' , '\"Beer, it’s the best damn drink in the world.\"', '\"A man who lies about beer makes enemies.\"'
 
-beerQuote.addEventListener('click', function result() {
+(".beerquote").addEventListener('click', function result() {
   let newStory = storyText;
   let xItem = randomValueFromArray (insertX);
   newStory = newStory.replace(':insertx:',xItem);
