@@ -27,7 +27,6 @@ let insertX = ['\"What care I how time advances? I am drinking ale today.\"', '\
   let newStory = storyText;
   let xItem = randomValueFromArray (insertX);
   newStory = newStory.replace(':insertx:',xItem);
-
+}
   story.textContent = newStory;
   story.style.visibility = 'visible';
-}
