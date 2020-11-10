@@ -1,23 +1,15 @@
 console.log('Hello from js/scripts.js!');
 //change color of modal
-const jazz = document.querySelector('#jazz');
+const btnPrimary = document.querySelector('btn-primary');
 
 function random(number) {
   return Math.floor(Math.random() * (number+1));
-}
-('#jazz').onclick = function() {
+
+btnPrimary.onclick = function() {
   const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
   document.getElementId(container).style.backgroundColor = rndCol;
 }
-//Michaels code
-const input = document.getElementById('username');
-const button = document.getElementById('my-button');
 
-button.addEventListener( 'click', say_hello );
-
-function say_hello () {
-    alert( 'Hello ' + input.value + '!' );
-}
 //beer quotes
 const beerQuote = document.querySelector('.beerquote');
 const story = document.querySelector('.story');
