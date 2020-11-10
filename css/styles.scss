@@ -77,12 +77,11 @@ img {
   background-image: url(../images/bubbles.jpg);
 }
 .beerquote {
-  display: box;
   background-color: pink;
   float: left;
 }
 .story {
-  display: box;
+  display: flex;
   background-color: pink;
   float: left;
   font-family:  playbill, cursive;
