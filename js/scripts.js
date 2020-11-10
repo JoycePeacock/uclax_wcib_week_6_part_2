@@ -8,7 +8,7 @@ function random(number) {
 
 document.getElementById("jazz").addEventListener("click", myFunction);
     const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-    document.getElementName(container).style.backgroundColor = rndCol;
+    document.getElementId(container).style.backgroundColor = rndCol;
 
 //beer quotes
 const beerQuote = document.querySelector('.beerquote');
