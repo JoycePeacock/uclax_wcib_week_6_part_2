@@ -4,7 +4,7 @@ const btnPrimary = document.querySelector('btn-primary');
 
 function random(number) {
   return Math.floor(Math.random() * (number+1));
-
+}
 btnPrimary.onclick = function() {
   const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
   document.getElementId(container).style.backgroundColor = rndCol;
@@ -15,7 +15,7 @@ const beerQuote = document.querySelector('.beerquote');
 const story = document.querySelector('.story');
 
 function randomValueFromArray(array){
-  const beerQuote = Math.floor(Math.random()*array.length);
+  const random = Math.floor(Math.random()*array.length);
   return array[random];
 }
 
