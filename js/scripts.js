@@ -5,11 +5,12 @@ const btnPrimary = document.querySelector('btn-primary');
 function random(number) {
   return Math.floor(Math.random() * (number+1));
 }
+
 btnPrimary.onclick = function() {
   const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-  document.getElementId(container).style.backgroundColor = rndCol;
+  document.getElementId('container').style.backgroundColor = rndCol;
 }
-
+/*
 //beer quotes
 const beerQuote = document.querySelector('.beerquote');
 const story = document.querySelector('.story');
@@ -29,4 +30,4 @@ let insertX = ['\"What care I how time advances? I am drinking ale today.\"', '\
   newStory = newStory.replace(':insertx:',xItem);
 })
   story.textContent = newStory;
-  story.style.visibility = 'visible';
+  story.style.visibility = 'visible';*/
