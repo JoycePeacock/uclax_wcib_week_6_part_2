@@ -90,20 +90,14 @@ img {
 .beerquote p {
     font-family:  playbill, cursive;
 }
-.slideshow {
-  position: relative;
-  display: block;
-  background: pink;
-  float: left;
-}
-.btn-primary{
-  text-align: center;
-}
 /* Slides */
 .mySlides {
   display: none;
   padding: 80px;
   text-align: center;
+  position: relative;
+  background: pink;
+  float: left;
 }
 /* Add an italic font style to all quotes */
 q {
