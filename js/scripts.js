@@ -1,6 +1,6 @@
 console.log('Hello from js/scripts.js!');
 //change color of modal
-const btnPrimary = document.querySelector('btn-primary');
+const btnPrimary = document.querySelector('.btn-primary');
 
 function random(number) {
   return Math.floor(Math.random() * (number+1));
@@ -8,7 +8,7 @@ function random(number) {
 
 btnPrimary.onclick = function() {
   const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-  document.getElementId('container').style.backgroundColor = rndCol;
+  document.getElementById('container').style.backgroundColor = rndCol;
 }
 /*
 //beer quotes
