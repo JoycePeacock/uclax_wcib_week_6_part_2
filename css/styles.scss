@@ -23,6 +23,9 @@
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
+.col-md-5 {
+  text-align: center;
+}
 
 .product-device {
   position: absolute;
@@ -66,6 +69,9 @@
 .bg-light {
     background-color: #ffafcc!important;
 }
+body {
+    background-color: #ffafcc!important;
+}
 h1 {
   width: 100%;
   text-align: center;
@@ -77,13 +83,33 @@ img {
   background-image: url(../images/bubbles.jpg);
 }
 .beerquote {
+  display: box;
   background-color: pink;
   float: left;
 }
-.story {
-  display: flex;
-  background-color: pink;
+.beerquote p {
+    font-family:  playbill, cursive;
+}
+.slideshow {
+  position: relative;
+  display: block;
+  background: pink;
   float: left;
+}
+.btn-primary{
+  text-align: center;
+}
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+/* Add an italic font style to all quotes */
+q {
   font-family:  playbill, cursive;
-  font-size: 2rem;
+  font-size: 3rem;
 }
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
