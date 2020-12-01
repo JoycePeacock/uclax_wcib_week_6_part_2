@@ -95,7 +95,15 @@ img {
 /* Add an italic font style to all quotes */
 q {
   font-family:  playbill, cursive;
+  font-size: 4em;
 }
-
+#hazmat {
+  width: 75%;
+  height: auto;
+}
+#card {
+  width: 100%;
+  height: auto;
+}
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}

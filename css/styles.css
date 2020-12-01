@@ -72,18 +72,10 @@ img {
 .bg-dark {
   background-image: url(../images/bubbles.jpg); }
 
-.beerquote {
-  display: box;
-  background-color: pink;
-  float: left; }
-
-.beerquote p {
-  font-family: playbill, cursive; }
-
 /* Slides */
 .mySlides {
   display: none;
-  padding: 80px;
+  padding: 10px;
   text-align: center;
   position: relative;
   background: pink;
@@ -92,7 +84,15 @@ img {
 /* Add an italic font style to all quotes */
 q {
   font-family: playbill, cursive;
-  font-size: 3rem; }
+  font-size: 4em; }
+
+#hazmat {
+  width: 75%;
+  height: auto; }
+
+#card {
+  width: 100%;
+  height: auto; }
 
 /* Add a blue color to the author */
 .author {
